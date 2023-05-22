@@ -10,15 +10,17 @@ def get_db():
   db = getattr(g, "_database", None)
 
   if db is None:
-    db = g._database = PyMongo(current_app.db)
+    
+    # Use database according to DEVELOPMENT or PRODUCTION evironment.
+    db = g._database = PyMongo(current_app).cx[current_app.config['DB_NAME']]
+      
 
     # Verify database connection
     try:
-      db_info = db.client.server_info()
-      current_app.logger.debug("MongoDB connection successful {db_info}")
+      db.client.server_info()
+      current_app.logger.debug(f"MongoDB successfully connected to {db.name}")
     except Exception as e:
-      current_app.logger.error("MongoDB connection failed: {e}")
-  
+      current_app.logger.error(f"MongoDB connection failed: {e}")
   return db
 
 db = LocalProxy(get_db)

@@ -16,3 +16,4 @@ Pico is created with:
 - Front-End: JavaScript, React, TypeScript
 - Back-End: Python, Flask, MongoDB
 - AI: GPT-3.5 API
+

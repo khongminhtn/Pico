@@ -1,22 +1,17 @@
 import os
+from flask_pymongo import PyMongo
 
 from dotenv import load_dotenv
 load_dotenv()
 
-from app.blueprints import create_app
+from app import create_app
+
 
 if __name__ == '__main__':
+  """
+  When run as a standalone program, this script creates a Flask application, 
+  sets its configuration, and then runs it.
+  """
   app = create_app()
-
-  # CONFIGURATION
-  # MONGO Credential Checking
-  mongo_uri = os.environ["MONGO_URI"]
-  if not mongo_uri:
-    app.logger.debug('MONGO_URI is not set in .env')
-
-  # Set Flask configs
-  app.config['MONGO_URI'] = os.environ['MONGO_URI']
-  app.config['DEBUG'] = True
-
   app.run()
 
