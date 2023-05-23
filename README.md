@@ -18,5 +18,5 @@ Pico is created with:
 - AI: GPT-3.5 API
 
 ## Overview 
-![Overview](https://github.com/khongminhtn/Pico/tree/main/docs/diagrams/overview.png)
+![Overview](https://github.com/khongminhtn/Pico/blob/main/docs/diagrams/overview.png?raw=true)
 
