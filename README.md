@@ -17,3 +17,6 @@ Pico is created with:
 - Back-End: Python, Flask, MongoDB
 - AI: GPT-3.5 API
 
+## Overview 
+![Overview](https://github.com/khongminhtn/Pico/tree/main/docs/diagrams/overview.png)
+
