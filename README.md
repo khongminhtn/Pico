@@ -1,4 +1,4 @@
-**This document is intended for individuals that are interested in the inner workings of the application and the thought process that go into designing and developing the application**
+<ins>**This document is intended for individuals that are interested in the inner workings of the application and the thought process that go into designing and developing the application**</ins>
 
 # Pico: 
  
