@@ -49,4 +49,4 @@ Designs are inspired by the following applications
  
 # UI Interfaces Mockup
 ## Login/Register
-![Login/Register](https://github.com/khongminhtn/Pico/blob/main/docs/ui/loginregister.png?raw=true)
+![Login/Register](https://github.com/khongminhtn/Pico/blob/main/docs/UI/LoginRegister.png?raw=true)
