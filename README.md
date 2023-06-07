@@ -16,7 +16,8 @@
 3. [Explore](#explore)
 4. [Content](#Content)
 5. [Nav](#Settings)
- 
+
+# Overview 
 ## Introduction [↑](#table-of-contents)
 Pico is a web-based personalised content recommendation engine that utilizes AI technology. It provides users with tailored news articles, blog posts, videos, and other types of content based on their interests. The innovative aspect of Pico lies in its use of the GPT-3.5 API to generate personalised summaries or insights about the recommended content and improve the recommendation algorithm. 
  
@@ -40,13 +41,21 @@ Pico is a web-based personalised content recommendation engine that utilizes AI 
 5. As a user, I want to receive personalised recommendations based on my preferences so that I can discover content that interests me.
 6. As a user, I want to provide feedback on the recommendations so that the system can learn from my inputs and further refine the recommendation system.
  
-## Precedence 
+## Precedence [↑](#table-of-contents)
 Designs are inspired by the following applications
 1. [Medium](https://medium.com/)
 2. [Tech Crunch](https://techcrunch.com/)
 3. [Reddit](https://www.reddit.com/)
 4. [Instagram](https://www.instagram.com/)
  
-# UI Interfaces Mockup
-## Login/Register
+# UI Interfaces Mockup [↑](#table-of-contents)
+## Login/Register [↑](#table-of-contents)
 ![Login/Register](https://github.com/khongminhtn/Pico/blob/main/docs/UI/LoginRegister.png?raw=true)
+## Home [↑](#table-of-contents)
+![Home](https://github.com/khongminhtn/Pico/blob/main/docs/UI/Home.png?raw=true)
+## Explore [↑](#table-of-contents)
+![Explore](https://github.com/khongminhtn/Pico/blob/main/docs/UI/Explore.png?raw=true)
+## Content [↑](#table-of-contents)
+![Content](https://github.com/khongminhtn/Pico/blob/main/docs/UI/Content.png?raw=true)
+## Nav [↑](#table-of-contents)
+![Nav](https://github.com/khongminhtn/Pico/blob/main/docs/UI/Nav.png?raw=true)
